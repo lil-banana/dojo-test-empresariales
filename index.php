@@ -3,6 +3,10 @@
   <title>Prueba de PHP</title>
  </head>
  <body>
- <?php echo '<p>Hola Mundo</p>'; ?>
+ <?php 
+  $nombre = $_GET['nombre'];
+  echo "<p>Hola  $nombre</p>";
+?>
  </body>
-</html>
+</html><?php
+?>
